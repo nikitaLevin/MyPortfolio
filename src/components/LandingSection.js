@@ -16,7 +16,12 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack spacing={4}>
-      <Avatar boxSize="350px" src={myPhoto} />
+      <Avatar 
+        boxSize={["150px", "250px", "350px"]} 
+        maxW="40vh"
+        maxH="40vh"
+        src={myPhoto} 
+      />
       <Heading as="h4" size="md">{greeting}</Heading>
       <VStack spacing={1}>
         <Heading as="h2" size="2xl">{bio1}</Heading>
