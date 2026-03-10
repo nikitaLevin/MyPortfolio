@@ -3,7 +3,7 @@
 Personal portfolio website built with React and Chakra UI.
 
 ## Features
-- 🔗 Social media links (GitHub, LinkedIn, Medium, Stack Overflow)
+- 🔗 Social media links (GitHub, LinkedIn, Email)
 - 🧭 Smooth scroll navigation between sections
 - 🙈 Header hides on scroll down and reappears on scroll up (with animation)
 - 🗂️ Featured Projects section with project cards
@@ -26,4 +26,4 @@ npm start
 Opens at http://localhost:3000
 
 ## Project Status
-🚧 In progress — project cards will be updated with real projects
+✅ Complete
