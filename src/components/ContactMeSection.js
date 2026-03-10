@@ -50,7 +50,7 @@ const LandingSection = () => {
 
   return (
     <FullScreenSection isDarkBackground backgroundColor="#2A4365" py={16} spacing={8}>
-      <VStack w="1024px" p={32} alignItems="flex-start">
+      <VStack w={["100%", "100%", "1024px"]} p={[4, 8, 32]} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">Contact me</Heading>
         <Box p={6} rounded="md" w="100%">
           <form onSubmit={formik.handleSubmit}>

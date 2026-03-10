@@ -23,9 +23,9 @@ const LandingSection = () => (
         src={myPhoto} 
       />
       <Heading as="h4" size="md">{greeting}</Heading>
-      <VStack spacing={1}>
-        <Heading as="h2" size="2xl">{bio1}</Heading>
-        <Heading as="h2" size="2xl">{bio2}</Heading>
+      <VStack spacing={1} textAlign={["center", "left"]}>
+        <Heading as="h2" size={["xl", "2xl"]}>{bio1}</Heading>
+        <Heading as="h2" size={["xl", "2xl"]}>{bio2}</Heading>
       </VStack>
     </VStack>
   </FullScreenSection>
