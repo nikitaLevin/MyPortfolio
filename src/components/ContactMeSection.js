@@ -29,7 +29,7 @@ const LandingSection = () => {
       comment: "",
     },
     onSubmit: (values) => {
-      submit("/api/contact", values);
+      submit("https://formspree.io/f/mnjgpppn", values);
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("Name is required"),
